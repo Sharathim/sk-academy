@@ -109,16 +109,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             </div>
 
             {/* Mobile Hamburger Button */}
-            <div className="flex lg:hidden items-center gap-2">
-              <Button
-                variant="primary"
-                size="sm"
-                href="#admissions"
-                className="text-xs px-3 py-1.5 min-h-[36px]"
-              >
-                Enquire
-              </Button>
-
+            <div className="flex lg:hidden items-center">
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
